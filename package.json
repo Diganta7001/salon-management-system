@@ -1,0 +1,26 @@
+{
+  "name": "salon-booking-site",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Srijani1234/Salon-booking-site#readme",
+  "bugs": {
+    "url": "https://github.com/Srijani1234/Salon-booking-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srijani1234/Salon-booking-site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "path": "^0.12.7"
+  }
+}

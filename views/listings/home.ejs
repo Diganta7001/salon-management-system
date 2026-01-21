@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link rel="stylesheet" href="/css/services.css">
+</head>
+<body>
+
+  <h1>Our Services</h1>
+
+  <div class="category-container">
+    <% categories.forEach(cat => { %>
+      <a href="/home/<%= cat %>" class="category-box">
+        <%= cat.toUpperCase() %>
+      </a>
+    <% }) %>
+  </div>
+
+</body>
+</html>
